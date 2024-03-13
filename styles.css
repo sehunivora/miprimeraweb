@@ -1,0 +1,207 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+ol,
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body{
+    background-color: rgb(195, 230, 231);
+    margin:0em;
+    padding:0em;
+}
+.container {
+   
+    margin:0em;
+    padding:0em;
+}
+
+header {
+    display:flex;
+    flex-flow: row;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(53, 53, 53);
+    width:100%;
+    height:35px;
+}
+header nav ul{
+    display:flex;
+    flex: row;
+    position:relative;
+    left:-18px;
+    gap:3em;
+    color: aliceblue;
+    font-size: 17px;
+    justify-content: right; 
+    font-family: "Mukta", sans-serif;
+    
+}
+header a i {
+    position:relative;
+    right:-10px;
+    color: white;
+    width: 2px; 
+    height: 3px
+}
+.seccion1 {
+    display:flex;
+    flex-wrap: wrap;
+    background-color: rgb(173, 214, 209);
+    background-blend-mode: color-dodge;
+    align-items: center;
+    justify-content:center;
+    height:400px;
+    text-align: right;
+    gap:40px;
+}
+.presentacion {
+    position:relative;
+    gap:30px;
+}
+.fotox {
+    justify-content: center;
+    width:280px;
+    height:350px;
+    border:5px solid rgb(139, 144, 151);
+    border-style:inherit;
+    display: inline-block; position: relative; width: 200px; height: 200px; overflow: hidden; border-radius: 50%; 
+}
+
+.presentacion > h1 {
+    font-size: 60px;
+    color:rgb(56, 144, 233);
+    position:relative;
+    font-family: "Lobster", sans-serif;
+}
+.descripcion {
+    font-size: 27.9px;
+    color:rgb(35, 39, 38);
+    font-family: "Caveat", cursive;
+}
+.ankhor {
+    width:100%;
+}
+@media (max-widht:767px){
+    .container {
+        font-size: 20px;
+}
+@media (min-width:768px) {
+    .container {
+        font-size: 40px;
+    }
+}
+}
+.seccion2 {
+    background-color: rgb(253, 198, 114);
+}
+.paneles {
+    background-color: rgb(250, 229, 170);
+    display:flex;
+    flex-wrap: wrap;
+    
+    width: 100%;
+    
+    padding:40px;
+    align-content: center;
+    justify-items: center;
+    justify-content:space-evenly;
+    align-items: center;
+    color:rgb(68, 68, 68);
+   ;
+    align-items: center;
+    position:absolute; 
+}
+h4 {
+    font-family: "Mukta", sans-serif;
+    font-size: 20px;
+    color:rgb(245, 168, 67)
+}
+.texto {
+    font-family: "Mukta", sans-serif;
+}
+.foto1 {
+    display:flex;
+    flex:column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.foto2 {
+    display:flex;
+    flex:row;
+    position:relative;
+    align-content: center;
+    justify-items: center;
+}
+.foto3 {
+    display:flex;
+    flex:row;
+    position:relative;
+    align-content: center;
+    justify-content: center;
+}
+.banca {
+    width:200px;
+    height:180px;
+    border-radius: 30px;
+    border-color: rgb(243, 153, 79);
+    border:4px solid rgb(250, 196, 97);
+}
+.radio {
+    width:200px;
+    height:180px;
+    border-radius: 30px;
+    border:4px solid rgb(250, 196, 97);
+
+}
+.petronas {
+    width:200px;
+    height:180px;
+    border-radius: 30px;
+    border:4px solid rgb(250, 196, 97);
+}
+footer {
+    display:flex;
+    flex:column;
+    position:relative;
+    padding:10px;
+    background-color: rgb(66, 66, 66);
+    color:aliceblue;
+    font-size: 20px;
+    justify-content: left;
+    bottom:-385px;
+    
+}
+ul {
+    color:brown;
+}
+.mukta-extralight {
+    font-family: "Mukta", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.caveat {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+    
